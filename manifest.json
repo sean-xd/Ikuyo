@@ -2,12 +2,12 @@
    "background": {
       "scripts": ["index.js"]
    },
-   "content_scripts": [ {
+   "content_scripts": [{
       "js": ["startup.js"],
       "matches": [ "*://www.bing.com/search*" ]
-   } ],
+   }],
    "manifest_version": 2,
    "name": "Ikuyo",
-   "permissions": [ "*://www.bing.com/", "webRequest", "webRequestBlocking", "background" ],
+   "permissions": ["*://www.bing.com/", "webRequest", "webRequestBlocking", "background"],
    "version": "1.0"
 }
